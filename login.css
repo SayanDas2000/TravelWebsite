@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.header
+{
+    height:100%;
+    background-image:url(images/HomeDesktopheader.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    font-family:cursive;
+}
+.header img{
+    font-size: 50px;
+    float: left;
+}
+.signup-btn{
+    width:100px;
+    padding: 8px;
+    outline: none !important;
+    border: 2px solid black;
+    border-radius: 50px;
+    background: transparent;
+    color: black;
+    float: right;
+}
+.loginbox
+{
+    width:320px;
+    height: 420px;
+    border-radius: 20px;
+    background: #0005;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    color: white;
+}
+.avatar
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.loginbox p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input
+{
+    width:100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+.loginbox a:hover{
+    color: #ffc107;
+}
+.footer
+{
+    padding: 80px 20px 15px;
+    background-image: linear-gradient(#2d557d,#9610fb);
+    color: white;
+}
+.footer-logo
+{
+    width: 150px;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+.footer h4
+{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer p{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+.footer .row .fa {
+    padding-right: 20px;
+    font-size: 15px;
+}
+.footer hr{
+    margin-top: 10px;
+    background: #efefef;
+}
+.fa-heart
+{
+    margin: 0 5px;
+    color:#f44336;
+}
+.footer .copyright
+{
+    text-align: center;
+}
+
+
+
+
+
+
